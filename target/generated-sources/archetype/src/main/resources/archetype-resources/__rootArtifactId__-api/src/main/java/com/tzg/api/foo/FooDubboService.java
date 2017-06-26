@@ -1,4 +1,4 @@
-package com.tzg.api.${package}.service;
+package com.tzg.api.${package}.foo;
 
 public interface FooDubboService {
 	

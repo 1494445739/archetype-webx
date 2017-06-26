@@ -1,10 +1,10 @@
-package com.tzg.web.${package}.controller;
+package com.tzg.web.${package}.foo;
 
 import com.tzg.service.support.proto.ProtoController;
 import com.tzg.service.support.proto.ProtoService;
 
-import com.tzg.web.${package}.bean.Foo;
-import com.tzg.web.${package}.service.api.FooService;
+import com.tzg.web.${package}.foo.Foo;
+import com.tzg.web.${package}.foo.FooService;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

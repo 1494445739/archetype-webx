@@ -1,10 +1,10 @@
-package com.tzg.web.${package}.bean;
-
-import com.tzg.service.support.proto.ProtoBean;
+package com.tzg.api.${package}.foo;
 
 import java.io.Serializable;
 
-public class Foo extends ProtoBean implements Serializable {
+public class FooDto implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private Integer id;
 
