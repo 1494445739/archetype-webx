@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- ====================================================== -->
+    <!--                         POM 版本                       -->
+    <!-- ====================================================== -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- ====================================================== -->
+    <!--                         POM 类型                       -->
+    <!-- ====================================================== -->
+    <packaging>pom</packaging>
+
+    <!-- ====================================================== -->
+    <!--                          父 POM                        -->
+    <!-- ====================================================== -->
+    <parent>
+        <groupId>com.tzg</groupId>
+        <artifactId>framework-core</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+    <!-- ====================================================== -->
+    <!--                         POM GAV                        -->
+    <!-- ====================================================== -->
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
+
+    <!-- ====================================================== -->
+    <!--                          多模块                         -->
+    <!-- ====================================================== -->
+    <modules>
+        <module>${rootArtifactId}-api</module>
+        <module>${rootArtifactId}-web</module>
+    </modules>
+
+    <!-- ====================================================== -->
+    <!--                       项目名和组织                      -->
+    <!-- ====================================================== -->
+    <url>http://www.tzg.cn</url>
+    <version>${version}</version>
+    <name>${artifactId}</name>
+    <description>======== 多模块web脚手架 ========</description>
+
+    <!-- ====================================================== -->
+    <!--                        开发者介绍                       -->
+    <!-- ====================================================== -->
+    <developers>
+        <developer>
+            <name>请填写姓名</name>
+            <email>请填写邮箱</email>
+            <organization>杭州铜米金融服务有限公司</organization>
+        </developer>
+    </developers>
+
+</project>

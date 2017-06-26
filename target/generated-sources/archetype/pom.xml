@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- ====================================================== -->
+    <!--                         POM 版本                       -->
+    <!-- ====================================================== -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- ====================================================== -->
+    <!--                         POM 类型                       -->
+    <!-- ====================================================== -->
+    <packaging>maven-archetype</packaging>
+
+    <!-- ====================================================== -->
+    <!--                         POM GAV                        -->
+    <!-- ====================================================== -->
+    <groupId>com.tzg</groupId>
+    <artifactId>archetype-webx</artifactId>
+    <version>1.0.1</version>
+
+    <!-- ====================================================== -->
+    <!--                       项目名和组织                      -->
+    <!-- ====================================================== -->
+    <url>http://www.tzg.cn</url>
+    <name>archetype-webx</name>
+    <description>======== Multi modules archetype-web ========</description>
+
+    <!-- ====================================================== -->
+    <!--               项目构建（包名/默认目标/插件等）             -->
+    <!-- ====================================================== -->
+    <build>
+      <extensions>
+        <extension>
+          <groupId>org.apache.maven.archetype</groupId>
+          <artifactId>archetype-packaging</artifactId>
+          <version>3.0.1</version>
+        </extension>
+      </extensions>
+
+      <pluginManagement>
+        <plugins>
+          <plugin>
+            <artifactId>maven-archetype-plugin</artifactId>
+            <version>3.0.1</version>
+          </plugin>
+        </plugins>
+      </pluginManagement>
+    </build>
+
+    <!-- ====================================================== -->
+    <!--                        开发者介绍                       -->
+    <!-- ====================================================== -->
+    <developers>
+        <developer>
+            <name>请填写姓名</name>
+            <email>请填写邮箱</email>
+            <organization>杭州铜米金融服务有限公司</organization>
+        </developer>
+    </developers>
+
+    <!-- ====================================================== -->
+    <!-- 发布管理                                                -->
+    <!--                                                        -->
+    <!--     1. dev-release  正式版本                            -->
+    <!--     2. dev-snapshot 快照版本                            -->
+    <!-- ====================================================== -->
+    <distributionManagement>
+      <repository>
+        <id>dev-release</id>
+        <name>dev-nexus-release</name>
+        <url>http://dev.maven.com:8081/nexus/content/repositories/releases/</url>
+      </repository>
+      <snapshotRepository>
+        <id>dev-nexus-snapshots</id>
+        <name>dev-nexus-snapshot</name>
+        <url>http://dev.maven.com:8081/nexus/content/repositories/snapshots/</url>
+      </snapshotRepository>
+    </distributionManagement>
+
+</project>
