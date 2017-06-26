@@ -1,4 +1,4 @@
-package com.tzg.api.${package}.bean;
+package com.tzg.api.${package}.model;
 
 import java.io.Serializable;
 
