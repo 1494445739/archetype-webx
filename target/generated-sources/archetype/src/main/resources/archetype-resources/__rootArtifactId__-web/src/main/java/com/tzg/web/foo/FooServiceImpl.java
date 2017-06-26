@@ -1,11 +1,7 @@
-package com.tzg.web.${package}.foo.impl;
+package com.tzg.web.${package}.foo;
 
 import com.tzg.service.support.proto.ProtoMapper;
 import com.tzg.service.support.proto.ProtoServiceImpl;
-
-import com.tzg.web.${package}.foo.Foo;
-import com.tzg.web.${package}.foo.FooMapper;
-import com.tzg.web.${package}.foo.FooService;
 
 import org.springframework.stereotype.Service;
 

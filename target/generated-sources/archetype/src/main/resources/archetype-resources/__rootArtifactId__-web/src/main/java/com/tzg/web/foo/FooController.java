@@ -3,9 +3,6 @@ package com.tzg.web.${package}.foo;
 import com.tzg.service.support.proto.ProtoController;
 import com.tzg.service.support.proto.ProtoService;
 
-import com.tzg.web.${package}.foo.Foo;
-import com.tzg.web.${package}.foo.FooService;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
